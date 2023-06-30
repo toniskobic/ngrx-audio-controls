@@ -1,0 +1,17 @@
+{
+  "audioControls": {
+    "muted": false,
+    "controls": [
+      {
+        "id": "2f937cfb-97a2-4a94-83c0-37cffbc68a11",
+        "volume": 0,
+        "muted": true
+      },
+      {
+        "id": "4b23e1c5-4f7a-4a7b-b447-8f2e0c8f98e7",
+        "volume": 0.6,
+        "muted": false
+      }
+    ]
+  }
+}

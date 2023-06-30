@@ -1,0 +1,24 @@
+.container {
+  display: inline-block;
+  margin-left: 1rem;
+  border: 1px solid black;
+}
+
+div {
+  padding: 1rem;
+}
+
+.save {
+  padding: 1rem;
+  color: white;
+  background-color: red;
+}
+
+.save:hover {
+  opacity: 0.6;
+}
+
+.save:active {
+  opacity: unset;
+  background-color: black;
+}

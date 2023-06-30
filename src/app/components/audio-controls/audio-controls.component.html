@@ -1,0 +1,8 @@
+<div class="container">
+  <input name="muted" type="checkbox" [checked]="muted$ | async" (click)="muteAll($event)"><label for="muted">All muted</label>
+  <div *ngFor="let audio of audioControls$ | async">
+    <input type="range" min="0" max="1" step="0.1" [value]="audio.volume" (change)="updateControl($event, audio, false)">
+    <input [name]="audio.id" type="checkbox" [checked]="audio.muted" (click)="updateControl($event, audio, true)">
+    <label [htmlFor]="audio.id">Muted</label>
+  </div>
+</div>

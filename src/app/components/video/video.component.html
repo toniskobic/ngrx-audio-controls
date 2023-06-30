@@ -1,0 +1,4 @@
+<ng-container *ngIf="audioControls$ | async as audioControls">
+  <video autoplay [volume]="audioControls[0].volume" [muted]="audioControls[0].muted ||( muted$ | async)"
+    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"></video>
+</ng-container>
