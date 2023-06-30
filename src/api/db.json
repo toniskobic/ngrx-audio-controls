@@ -1,0 +1,15 @@
+{
+  "audio": {
+    "muted": false,
+    "controls": [
+      {
+        "volume": 1,
+        "muted": false
+      },
+      {
+        "volume": 0.6,
+        "muted": false
+      }
+    ]
+  }
+}
